@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>Lchat</title>
+</head>
+<body>
+<script id="cid0020000247369696666" data-cfasync="false" async="async" src="//st.chatango.com/js/gz/emb.js" style="width: 280px;height: 380px;" >{"handle":"l0livo","arch":"js","styles":{"a":"E91E63","b":100,"c":"FFFFFF","d":"000000","k":"E91E63","l":"E91E63","m":"E91E63","p":"10","q":"E91E63","r":100,"surl":0,"fwtickm":1}}</script>
+</body>
+</html>
