@@ -1,0 +1,95 @@
+/*Chatango Melayang*/
+span.ctg-lock {
+    z-index: 9999;
+    position: fixed;
+    height: 30px;
+    cursor: pointer;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #2282d6;
+    transition: .5s;
+    transform: translate(25%, -10%)
+}
+
+span.ctg-lock::before {
+    content: "LoliveChat";
+    position: absolute;
+    top: 50%;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    left: 50%;
+    color: white;
+    transition: .5s;
+    transform: translate(-50%, -50%)
+}
+
+span.ctg-lock:hover::before {
+    transform: translate(-50%, -50%) scale(2)
+}
+
+span.ctg-lock.hide {
+    transform: translate(20%, -20%) scale(0.1);
+    opacity: 0
+}
+
+div#HTML10 h2 {
+    display: none
+}
+
+div#ctg {
+    position: fixed;
+    height: 400px;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #444;
+    transition: .5s;
+    transform: translate(-100%, -10%)
+}
+
+div#ctg.show {
+    transform: translate(10%, -10%)
+}
+
+.ctg-responsive {
+    position: relative
+}
+
+span.ctg-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    background: #2282d6;
+    z-index: 1;
+    cursor: pointer
+}
+
+span.ctg-close::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg)
+}
+
+span.ctg-close::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg)
+}
