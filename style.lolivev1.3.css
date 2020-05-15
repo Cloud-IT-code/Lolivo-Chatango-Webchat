@@ -1,4 +1,10 @@
 /*Chatango Melayang*/
+@media screen and (max-device-width: 480px) {
+    .ctg-lock {
+        display: none;
+    }
+}
+
 span.ctg-lock {
     z-index: 9999;
     position: fixed;
