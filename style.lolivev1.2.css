@@ -7,20 +7,18 @@ span.ctg-lock {
     width: 60px;
     bottom: 0;
     left: 0;
-    box-shadow: 0 0 50px rgba(1, 7, 151, .2);
     transition: .5s;
     transform: translate(100%, -95%)
 }
 
 span.ctg-lock::before {
-    content: url(lolive2.png);
+    content: url(https://4.bp.blogspot.com/-PG-kk-29-dg/Xr44FqxRD2I/AAAAAAAACMs/Em_5jIgiPOMyd9_4fdh2waJSS4URmt4PgCK4BGAYYCw/lolive320.png);
     position: absolute;
     top: 50%;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
     left: 50%;
-    color: #2282d6;
     transition: .5s;
     transform: translate(-50%, -50%)
 }
